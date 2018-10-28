@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sample test" duration-ms="58843" started-at="2018-10-28T07:16:18Z" finished-at="2018-10-28T07:17:17Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="58843" started-at="2018-10-28T07:16:18Z" finished-at="2018-10-28T07:17:17Z">
+      <class name="readFile.DemoRead">
+        <test-method status="PASS" signature="getPageSource()[pri:0, instance:readFile.DemoRead@4501b7af]" name="getPageSource" duration-ms="52512" started-at="2018-10-28T07:16:18Z" finished-at="2018-10-28T07:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageSource -->
+        <test-method status="PASS" signature="getPageSource1()[pri:0, instance:readFile.DemoRead@4501b7af]" name="getPageSource1" duration-ms="58733" started-at="2018-10-28T07:16:18Z" finished-at="2018-10-28T07:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageSource1 -->
+      </class> <!-- readFile.DemoRead -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- sample test -->
+</testng-results>
