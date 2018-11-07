@@ -17,7 +17,7 @@ public class DemoRead {
 		WebDriver driver;
 		DesiredCapabilities capa = DesiredCapabilities.chrome();
 		
-		driver = new RemoteWebDriver(new URL("http://localhost:32768/wd/hub"), capa);
+		driver = new RemoteWebDriver(new URL("http://localhost:32769/wd/hub"), capa);
 		
         driver.get("https://lakebacorp-my.sharepoint.com/personal/s_ramasamy_lakeba_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fs_ramasamy_lakeba_com%2FDocuments%2FSixUploads");		
 		Thread.sleep(8000);
@@ -38,7 +38,7 @@ public class DemoRead {
 		WebDriver driver;
 		DesiredCapabilities capa = DesiredCapabilities.firefox();
 		
-		driver = new RemoteWebDriver(new URL("http://localhost:32768/wd/hub"), capa);
+		driver = new RemoteWebDriver(new URL("http://localhost:32769/wd/hub"), capa);
 		
         driver.get("https://lakebacorp-my.sharepoint.com/personal/s_ramasamy_lakeba_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fs_ramasamy_lakeba_com%2FDocuments%2FSixUploads");		
 		Thread.sleep(8000);
